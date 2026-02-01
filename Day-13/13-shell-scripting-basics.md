@@ -1,6 +1,6 @@
 <h1 align="center">🐚 Day 13 – Shell Scripting Complete Guide</h1>
 
-<p align="center">
+<p align="center"> 
   <img src="https://img.shields.io/badge/Linux-Shell_Scripting-FCC624?style=for-the-badge&logo=gnu-bash&logoColor=black"/>
   <img src="https://img.shields.io/badge/Day-13-Automation-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Level-DevOps_Foundation-blue?style=for-the-badge"/>
