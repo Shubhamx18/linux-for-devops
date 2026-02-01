@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  Learn how to move inside the Linux file system and view directory contents using essential navigation commands.
+  Master how to move inside the Linux file system and explore directories using essential navigation commands.
 </p>
 
 ---
 
-## 📍 `pwd` — Print Current Directory
-Shows the full path of where you are in the system.
+## 📍 `pwd` — Print Current Working Directory
+Displays the full path of your current location.
 
 ```bash
 pwd
@@ -24,7 +24,7 @@ pwd
 ---
 
 ## 📂 `ls` — List Files & Directories
-Displays files and folders in the current location.
+Shows files and folders in the current directory.
 
 ```bash
 ls
@@ -34,8 +34,8 @@ Documents  Downloads  file.txt
 
 ---
 
-## 📄 `ls -l` — Detailed File List
-Shows permissions, owner, size, and modification date.
+## 📄 `ls -l` — Detailed File Listing
+Displays permissions, owner, size, and modification date.
 
 ```bash
 ls -l
@@ -47,7 +47,7 @@ drwxr-xr-x 2 user user 4096 Jan 10 09:00 Documents
 ---
 
 ## 👻 `ls -a` — Show Hidden Files
-Displays hidden files (names starting with `.`).
+Lists hidden files that start with a dot (`.`).
 
 ```bash
 ls -a
@@ -58,7 +58,7 @@ ls -a
 ---
 
 ## 👻📄 `ls -la` — Detailed + Hidden Files
-Combines detailed view and hidden files.
+Combines detailed listing with hidden files.
 
 ```bash
 ls -la
@@ -70,8 +70,8 @@ drwxr-xr-x 5 user user 4096 Jan 10 09:00 ..
 
 ---
 
-## 📏 `ls -lh` — Human Readable Sizes
-Displays file sizes in KB, MB, GB.
+## 📏 `ls -lh` — Human Readable File Sizes
+Shows file sizes in KB, MB, or GB.
 
 ```bash
 ls -lh
@@ -81,8 +81,8 @@ ls -lh
 
 ---
 
-## ⏳ `ls -lt` — Newest Files First
-Sorts files by most recently modified.
+## ⏳ `ls -lt` — Sort by Newest Files
+Lists files sorted by most recently modified.
 
 ```bash
 ls -lt
@@ -92,8 +92,8 @@ file.txt  Documents
 
 ---
 
-## 🕒 `ls -ltr` — Oldest Files First
-Sorts files by oldest modified.
+## 🕒 `ls -ltr` — Sort by Oldest Files
+Lists files sorted by oldest modified.
 
 ```bash
 ls -ltr
@@ -103,8 +103,8 @@ Documents  file.txt
 
 ---
 
-## ⚡ `ls -f` — Unsorted List
-Shows files without sorting.
+## ⚡ `ls -f` — Unsorted Listing
+Shows files without any sorting.
 
 ```bash
 ls -f
@@ -114,8 +114,8 @@ file.txt  Documents  Downloads
 
 ---
 
-## 🔁 `ls -R` — Recursive List
-Lists files inside subdirectories.
+## 🔁 `ls -R` — Recursive Listing
+Displays files inside all subdirectories.
 
 ```bash
 ls -R
@@ -130,7 +130,7 @@ notes.txt
 ---
 
 ## 📁 `cd foldername` — Enter a Directory
-Moves you inside a folder.
+Moves you into a folder.
 
 ```bash
 cd Documents
@@ -141,8 +141,8 @@ pwd
 
 ---
 
-## ⬆ `cd ..` — Go One Level Up
-Moves back to the parent directory.
+## ⬆ `cd ..` — Move One Level Up
+Returns to the parent directory.
 
 ```bash
 cd ..
@@ -154,7 +154,7 @@ pwd
 ---
 
 ## 🏠 `cd ~` — Go to Home Directory
-Quick shortcut to your home folder.
+Shortcut to your home folder.
 
 ```bash
 cd ~
@@ -166,7 +166,7 @@ pwd
 ---
 
 ## 🌍 `cd /` — Go to Root Directory
-Moves to the top-most directory.
+Moves to the top-level directory.
 
 ```bash
 cd /
@@ -178,7 +178,7 @@ pwd
 ---
 
 ## 🔙 `cd -` — Return to Previous Directory
-Switches back to your last location.
+Switches back to the last visited directory.
 
 ```bash
 cd -
@@ -189,7 +189,7 @@ cd -
 ---
 
 ## 🧭 Absolute Path Navigation
-Full path starting from `/`.
+Uses the full path starting from root.
 
 ```bash
 cd /home/user/Documents
@@ -201,7 +201,7 @@ pwd
 ---
 
 ## 🧭 Relative Path Navigation
-Path from where you currently are.
+Uses a path relative to your current location.
 
 ```bash
 cd Documents
